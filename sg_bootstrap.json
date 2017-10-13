@@ -1,0 +1,28 @@
+{
+  "extensions": [
+    {
+      "path": "blogs",
+      "application": "Scott Good Bootstrap Injection",
+      "payload": {
+        "match": {
+          "user-name": "Lucille Suarez"
+        },
+        "include-files": [
+          "SG_Bootstrap/jquery-3.2.1.min.js",
+          "SG_Bootstrap/sg_bootstrap_injection.js",
+          "SG_Bootstrap/sg_bootstrap.user.js"
+        ]
+      },
+      "name": "Scott Good Bootstrap Injection",
+      "id": "d2075fc2-a960-4c68-ad65-898c4db2d49a",
+      "type": "com.ibm.customizer.ui"
+    }
+  ],
+  "name": "Scott Good Bootstrap Injection",
+  "description": "Scott Good Bootstrap Injection",
+  "services": [
+    "Customizer"
+  ],
+  "id": "a0de450b-3d01-472a-a46f-47815af7f2ab",
+  "title": "Scott Good Bootstrap Injection"
+}

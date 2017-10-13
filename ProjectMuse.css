@@ -1,0 +1,217 @@
+body {
+    font-size: 16px;
+}
+.lotusWarningMsgs {
+    background-color: #ffc76c;
+    border: 1pt solid #ffaa22;
+}
+.lotusHeader .shareSome-desc {
+    font-size: 1.2em;
+}
+.lotusui30 a, 
+.lotusui30 a:visited, 
+div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
+div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, 
+a {
+    color: red;
+}
+
+.lotusui30 div.lotusHeader {
+    margin-bottom: 0;
+}
+
+.lotusui30 .lotusPlaceBar .lotusInlinelist.lotusRight {
+    position: absolute;
+    top: -45px;
+    right: 20px;
+}
+/* https://cdn.rawgit.com/JSG1901/Muse/master/ProjectMuse.css */
+
+.lotusui30 a, 
+.lotusui30 a:visited, 
+div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
+div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, 
+a {
+    color: #4178be;
+}
+.redBorder {
+    border: 1pt solid red;
+}
+.blueBorder {
+    border: 1pt solid blue;
+}
+.greenBorder {
+    border: 1pt solid green;
+}
+
+.lotusui30_body .lotusMain,
+.lotusui30_body .lotusFrame {
+    min-width: 0; 
+}
+.lotusui30_body .lotusFrame.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.lotusui30 .lotusMenu li a, .lotusui30 .lotusMenu li a:visited {
+    font-family: "Helvetica Neue", Sans-Serif,Helvetica, Arial, Roboto;
+    font-weight: 300;
+    width: 90%;
+    overflow: hidden;
+}
+.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, 
+.lotusui30 .lotusColRight .lotusSection2 .lotusHeading2,
+.lotusui30 .lotusMenu li.lotusSelected:first-child a {
+    font-family: "Helvetica Neue", Sans-Serif,Helvetica, Arial, Roboto;
+    font-weight: 500;
+    width: 90%;
+    overflow: hidden;
+}
+.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, 
+.lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
+    font-size: 1.05em;
+}
+.lotusui30_layout .lotusColRight .lotusSection {
+    width: 100%;
+    max-width: none;
+}
+.lotusui30_layout .lotusColLeft .personinlinemenu {
+    width: 100%;
+    max-width: none;
+    background: white;
+}
+.lotusui30_layout .lotusColLeft:after {
+    border-left: 1000vw solid white;
+    background: none;
+    border-right: none;
+    margin-left: -980vw;
+}
+.lotusui30 .lotusSection2 .lotusSectionHeader {
+    border-top: none;
+    border-bottom: 1pt solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.black {
+    font-weight: 400;
+}
+#meetingSection .dijitTextBox input, 
+#meetingSection .dijitComboBox input, 
+#meetingSection .dijitArrowButton, 
+#meetingSection .dijitButtonNode {
+    font-family: "Helvetica Neue", Sans-Serif,Helvetica, Arial, Roboto;
+    font-weight: 300;
+}
+.lotusui30 button, .lotusui30 input, .lotusui30 select {
+    font-family: "Helvetica Neue", Sans-Serif,Helvetica, Arial, Roboto;
+    font-weight: 400;
+}
+div#dropdownNavMenuContainer, div#dropdownSubMenuContainer {
+    width: 90%;
+}
+div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
+div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
+    max-width: 8vw;
+    white-space: normal;
+}
+.lotusui30 div.lotusPlaceBar h2 {
+    margin-left: 25vw;
+}
+.lotusui30 .lotusLike {
+    top: -30px;
+    position: relative;
+}
+.lotusui30_layout .lotusColLeft {
+    background: none;
+}
+.lotusui30_layout .lotusColLeft,
+.lotusui30_layout .lotusColRight {
+    margin-right: 0; 
+    margin-left: 0; 
+}
+.lotusui30 div.lotusPlaceBar h2 {
+    top: -20px;
+}
+.lotusliveui, 
+.lotusliveui30, 
+.scloud3 {
+    font: normal 0.8em/1.3 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+}
+.lotusui30 .lotusPostContent .lotusPostAction .vcard {
+    font-size: 1em;
+}
+.lotusui30_layout .lotusMain .lotusContent {
+    padding: 0 15px 0 15px;
+}
+.lotusui30 .lotusMain span.lotusBtn a {
+    margin-top: 10px;
+}
+div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
+div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
+    max-width: 11vw;
+    white-space: normal;
+}
+
+@media(max-width:768px) {
+    .lotusui30 .lotusActionBar {
+        height: 4.5em;
+    }
+    .lotusui30 .lotusMain span.lotusBtn a {
+        margin-top: 10px;
+    }
+    div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
+    div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
+        max-width: 30vw;
+        white-space: normal;
+    }
+    .lotusui30 .lotusTitleBar .lotusRightCorner {
+        display:none;
+    }
+}
+@media(min-width: 660px) {
+    /* break to bootstrap xs (xxs was added to be smaller) */
+    div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
+    div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
+        max-width: 10vw;
+        white-space: normal;
+    }  
+}
+@media(min-width: 725px) {
+    /* custom break */
+    div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
+    div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
+        max-width: 20vw;
+        white-space: normal;
+    } 
+}
+@media(min-width: 768px) {
+    /* break to bootstrap sm */ 
+    .lotusui30 .lotusActionBar {
+        height: 4em;
+    }
+    .lotusui30 .lotusMain span.lotusBtn a {
+        margin-top: 0;
+    }
+    .
+}
+@media(min-width: 992px) {
+    /* break to bootstrap md */
+    
+}
+@media(min-width: 1200px) {
+    /* break to bootstrap lg */
+    div#dropdownNavMenuContainer div#dropdownNavMenuSelection, 
+    div#dropdownSubMenuContainer div#dropdownSubMenuSelection {
+        max-width: 11vw;
+        white-space: normal;
+    } 
+    
+}
+
+@media(max-width: 450px) {
+    
+}
+
+
