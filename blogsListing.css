@@ -1,0 +1,451 @@
+/* 
+@import url('SG_Bootstrap/bootstrap.min.css');
+@import url('SG_Bootstrap/ConnectionsBootstrap.css');
+@import url('SG_Bootstrap/ProjectMuse.css');
+@import url('SG_Bootstrap/coreDesign.css');
+*/
+
+body.lotusui30_body {
+    background: #ffb130;
+    color: white;
+}
+.lotusui30_body .lotusFrame.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(http://tscloud.teamsol.com/home2.nsf/LittleBoy.jpg) no-repeat;
+    background-size: 100%;
+}
+/* blogs.css */
+body.lotusliveui, 
+body.lotusliveui30, 
+body.scloud3 {
+    font: normal 0.8em/1.5 Courier,Helvetica, Arial, Roboto, sans-serif;
+}
+
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
+    border-bottom:none;   
+}
+.blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
+.lotusLayout.lotusHeader.blogsWrapText h1 {
+    display:none;
+}
+.blog .entryContentContainer.blogsWrapText {
+    margin-top: 0;
+}
+body.lotusui30 .lotusActionBar {
+    top: -10px;
+    right: -5px;
+    margin-bottom: 28px;
+    z-index:1000;
+}
+ul#blogsActionBar {
+    position: absolute;
+    left: -200px;
+    top: -170px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 200px;
+}
+ul#blogsActionBar li {
+    display:block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body .lotusui30_layout .lotusColLeft {
+    margin-top: 100px;
+}
+body .lotusui30_layout .lotusColLeft:after {
+    border-left:none;
+    border-right:none;
+}
+body.lotusui30 span.lotusBtn {
+    float:right;
+}
+body.lotusui30 .lotusMain span.lotusBtn a {
+    background-color: rgba(225,131,0,0.6);
+    color: white;
+    box-shadow: 0 0 0 1px #eee inset;
+    margin-top: 10px;
+    font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
+    border-radius: 0.9vw;
+}
+body.lotusui30 .lotusMain span.lotusBtn a:active {
+    box-shadow: 0 0 0 1px rgb(225,131,0) inset;
+    background-color: rgba(225,131,0,0.8);
+    color: #ccc;
+}
+body.lotusui30 .lotusMain span.lotusBtn a:focus, 
+body.lotusui30 .lotusMain span.lotusBtn a:hover {
+    background-color: rgba(225,131,0,0.8);
+    box-shadow: 0 0 0 1px rgb(225,131,0) inset;
+    color: white;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a {
+    border: none;
+}
+body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
+    display:none;
+}
+body.lotusui30_body .lotusMain {
+    min-width: 0;
+    margin-top: 30px;
+}
+body #lconnTagCloudFilter {
+    background: rgba(152,99,62,0.7);
+    padding: 10px 25px;
+    margin: 0 50px 0 20px;
+    border-radius: 1vw;
+}
+body.lotusui30_body #lotusContent #entries .lotusTable.blogsFixedTable td,
+body.lotusui30_body .lotusui30 .lotusMenu,
+body .lotusui30_layout .lotusColRight .lotusSection {
+    background: rgba(152,99,62,0.7);
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 1vw;
+}
+body.lotusui30_body #lotusContent #entries .lotusTable.blogsFixedTable td {
+    border-bottom: 15px solid transparent;
+    padding: 15px 30px;
+}
+body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware, 
+body .blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a,
+body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading, 
+body.lotusui30 .lotusColRight .lotusSection2 .lotusHeading2 {
+    font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
+    font-size: 24pt;
+    line-height: 24.0pt;
+    color: white;
+    font-weight: 300;
+    padding-top: 15px;
+    width: 85%;
+}
+body.lotusui30 .lotusMenu li.lotusSelected:first-child a,
+body.lotusui30 .lotusMenu li a, 
+body.lotusui30 .lotusMenu li a:visited {
+    font-family: Courier, "Helvetica Neue",Helvetica,sans-serif;
+    font-size: 16pt;
+    line-height: 24.0pt;
+    color: white;
+    font-weight: 300;
+    padding-top: 15px;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a:hover, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a:focus, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li:focus a, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li.lotusSelected a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a:hover, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a:focus, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li:focus a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li.lotusSelected a {
+    background: #e49106;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu li a:before, 
+body div#dropdownNavMenuContainer div#dropdownNavMenu div#subcommArea .lotusMenuSection h3, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu li a:before, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu div#subcommArea .lotusMenuSection h3 {
+    width: 100%;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenu, 
+body div#dropdownSubMenuContainer div#dropdownSubMenu {
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 188px;
+    z-index: 5;
+    background-color: rgba(228,145,6,0.5);
+    border: 1px solid rgb(228,145,6);
+}
+
+body.lotusui30 a, 
+body.lotusui30 a:visited, 
+body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a, 
+body div#dropdownSubMenuContainer div#dropdownSubMenuTitle li a, a {
+    color: white;
+}
+body.lotusui30 .lotusSort,
+body.lotusui30 .lotusSort a {
+    font-weight: 300;
+    font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
+    color:black;
+    margin-bottom: 7px;
+    margin-top: -10px;
+}
+body.lotusui30 .lotusPaging, 
+body.lotusui30 .lotusPaging div, 
+body.lotusui30 .lotusPaging input, 
+body.lotusui30 .lotusPaging ul li {
+    color: black;
+    font-weight: 300;
+    font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
+}
+body div#dropdownNavMenuContainer div#dropdownNavMenuTitle li a {
+    background-color: rgba(152,99,62,0.7);
+}
+body .hikari.ics-scbanner > a, 
+body .hikari.ics-scbanner > a:visited, 
+body .hikari.ics-scbanner > a:hover, 
+body .hikari.ics-scbanner > a:focus, 
+body .hikari.ics-scbanner > a:active, 
+body .gen4.ics-scbanner > a, 
+body .gen4.ics-scbanner > a:visited, 
+body .gen4.ics-scbanner > a:hover, 
+body .gen4.ics-scbanner > a:focus, 
+body .gen4.ics-scbanner > a:active, 
+body .colour.ics-scbanner > a, 
+body .colour.ics-scbanner > a:visited, 
+body .colour.ics-scbanner > a:hover, 
+body .colour.ics-scbanner > a:focus, 
+body .colour.ics-scbanner > a:active,
+body .ics-scbanner {
+    color: black !important;
+}
+body .hikari.ics-scbanner > a.selected {
+    color: white;
+    font-weight: 800;
+}
+
+body.lotusui30 .dijitTitlePaneTitle, 
+body.lotusui30 .lotusSection h2, 
+body.lotusui30 .lotusWidget h2, 
+body.lotusui30 .lotusWidget2 h2 {
+    color: white;
+}
+body.lotusui30 .dijitPopup.dijitMenuPopup td {
+    color: black;
+    font-size 14px;
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+}
+body.lotusui30 div.lotusPlaceBar h2,
+body.lotusui30 .tabNavBar   .tabNavCommunityName div {
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    padding: 35px 25px 70px 85px;
+    color: white;
+    font-size: 1.6em;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 0px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    left: 0;
+    background: url(http://tscloud.teamsol.com/home2.nsf/BrownPaperBG.png);
+    background-size: 100% 100%;
+    width: 75%;
+}
+.communities-widget-appearance .lotusui30 .lconnCommLogo img.discussCommunityLogo {
+    display:none;
+}
+body.lotusui30 .lotusPlaceBar .lotusInlinelist li a, 
+body.lotusui30 .lotusPlaceBar .lotusInlinelist li a:visited {
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
+}
+body.lotusui30 .dijitTitlePaneTitle, 
+body.lotusui30 .lotusSection h2, 
+body.lotusui30 .lotusWidget h2, 
+body.lotusui30 .lotusWidget2 h2 {
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+}
+body.lotusui30 .lotusRightCorner .lotusInner .icSearchPaneButton,
+body .search-history-view-ui .lotusui30 .icSearchPaneButton {
+    top: 20px;
+    background-color: #b47100;
+    outline: #b47100 solid 1px;
+}
+body.lotusui30 .lotusColLeft a.lotusF1, 
+body.lotusui30 .lotusColLeft a.lotusF1:visited, 
+body.lotusui30 .lotusColLeft a.lotusF2, 
+body.lotusui30 .lotusColLeft a.lotusF2:visited, 
+body.lotusui30 .lotusColLeft a.lotusF3, 
+body.lotusui30 .lotusColLeft a.lotusF3:visited, 
+body.lotusui30 .lotusColLeft a.lotusF4, 
+body.lotusui30 .lotusColLeft a.lotusF4:visited, 
+body.lotusui30 .lotusColLeft a.lotusF5, 
+body.lotusui30 .lotusColLeft a.lotusF5:visited {
+    color: white;
+}
+.lotusui30 .lotusPostDetails p {
+    color: black;
+}
+body .lotusui30_layout .lotusMain .lotusContent {
+    padding: 70px 20px 15px 15px;
+}
+body .lotusTable td.entryContentContainerTD p {
+    padding-bottom: 5px;
+}
+body.lotusui30 .lotusTable h4,
+body.lotusui30 .lotusColRight .lotusMeta {
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,Roboto;
+    font-size: 0.95em;
+    color:white;
+}
+body #lotusColRight .blogsFixedTable {
+    font-family: Courier, "Helvetica Neue Light",Helvetica,Arial,sans-serif;
+    color: white;
+}
+body #lotusColRight .blogsFixedTable h4 {
+    font-size:1.1em;
+    font-weight: 800;
+}
+body #lotusColRight .blogsFixedTable div br {
+    display:none;
+}
+body #lotusColRight .blogsFixedTable div:not(div.lotusLike) {
+
+}
+body #lotusColRight .blogsFixedTable div span[role="listitem"] {
+    display:block;
+    padding:0;
+    margin:0;
+}
+body #lotusColRight .blogsFixedTable div span.lotusDivider {
+    display:none;
+}
+body #lotusColRight .blogsFixedTable div span.vcard {
+    display:block;
+}
+body #lotusColRight .blogsFixedTable div .blogsPaddingLeft {
+    margin-top: -35px;
+    margin-left: -5px;
+    color: #6c6c6c;
+}
+body.lotusui30 .lotusColRight .lotusMeta .lotusLike {
+    top:0;
+}
+body.lotusui30 .tabNavBar .lotusPlaceBar .tabNavMenu {
+    background: rgba(225,131,0,0.6);
+}
+body.lotusui30 .tabNavFixed .lotusPlaceBar .tabNavMenu {
+    display:none;
+}
+body.lotusui30 .lotusTabs li.lotusSelected {
+    background: rgba(225,131,0,0.8);
+    border-bottom-color: #ffb130;
+}
+body.lotusui30 .tabNavBar,
+body.lotusui30 .tabNavBar div#lotusTitleBar,
+body.lotusui30 .tabNavBar .tabNavCommunityName {
+    background: transparent;
+    box-shadow: none;
+}
+body.lotusui30 .tabNavBar .tabNavImage {
+    display:none;
+}
+body.lotusui30 .tabNavBar .tabNavTextEllipsis {
+    overflow:visible;
+    white-space: normal;
+}
+body.lotusui30 .tabNavBar .tabNavCommunityName div {
+    max-width: none;
+}
+body.lotusui30 .tabNavBar div.lotusPlaceBar .tabNavPlaceBarInner {
+    top: 83px;
+}
+body.lotusui30 .tabNavBar .lotusTabs li.lotusSelected {
+    padding-bottom: 4px;
+}
+body.lotusui30 .tabNavBar .lotusTabs li a {
+    color: #444;
+}
+body.lotusui30 .tabNavBar .lotusTabs li a:hover {
+    color: #ddd;
+}
+body.lotusui30 .tabNavBar .lotusTabs li a:active {
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    body.lotusui30 div.lotusPlaceBar h2 {
+        font-size: 1.8em;
+        padding-bottom: 50px;
+        margin-top: 40px;
+        width: 90vw;
+    }
+} 
+
+@media(min-width: 660px) {
+    /* break to bootstrap xs (xxs was added to be smaller) */
+    
+}
+@media(min-width: 725px) {
+    /* custom break */
+     
+}
+@media(min-width: 768px) {
+    /* break to bootstrap sm */ 
+    
+}
+@media(min-width: 992px) {
+    /* break to bootstrap md */
+    
+}
+@media(min-width: 1200px) {
+    /* break to bootstrap lg */
+    
+}
+@media(max-width: 1400px) {
+    body.lotusui30 .tabNavBar .tabNavCommunityName div {
+        width: 55vw;
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width: 991px) {
+    body .lotusui30_layout .lotusMain .lotusContent {
+        padding-top: 0;
+    }
+    body.lotusui30 div.lotusPlaceBar h2 {
+        font-size: 2em;
+    }
+    ul#blogsActionBar,
+    body.lotusui30 .tabNavBar div.lotusPlaceBar .tabNavPlaceBarInner {
+        display:none;
+    }
+    body.lotusui30 .lotusActionBar {
+        top: 30px;
+        left: 0;
+    }
+    body #sortbyToolbarLabel {
+        display:none;
+    }
+    body.lotusui30 .tabNavBar .tabNavCommunityName div {
+        width: 65%;
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width:760px) {
+    body.lotusui30 .tabNavBar .tabNavCommunityName div {
+        width: 80vw;
+        font-size: 1.3em;
+    }
+}
+@media(max-width: 660px) {
+    #lotusColRight {
+        display:none;
+    }
+    body .lotusui30_layout .lotusMain .lotusContent {
+        padding-top: 0;
+    }
+    body.lotusui30 div.lotusPlaceBar h2 {
+        font-size: 2em;
+    }
+}
+@media(max-width: 550px) {
+    body .lotusui30_layout .lotusMain .lotusColLeft {
+        padding-top: 100px;
+    }
+}
