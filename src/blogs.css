@@ -1,0 +1,91 @@
+/* blogs.css */
+body.lotusliveui, 
+body.lotusliveui30, 
+body.scloud3 {
+    font: normal 1.25em/1.5 "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+}
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware,
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
+    font-family:Trebuchet MS,Helvetica,sans-serif;
+    font-size: 18.0pt;
+    line-height: 24.0pt;
+    color: #4b0082;
+    margin: 0;
+    max-width: 90%;
+    padding-bottom: 8px;
+    border-bottom: 1pt solid #ddd; 
+}
+.blogsFixedTable .entryContentContainerTD.blogsWrapText h4.bidiAware a {
+    border-bottom:none;   
+}
+.blogsFixedTable .entryContentContainerTD.blogsWrapText .lotusMeta.lotusLeft,
+.lotusLayout.lotusHeader.blogsWrapText h1 {
+    display:none;
+}
+.blog .entryContentContainer.blogsWrapText {
+    margin-top: 0;
+}
+
+ul#blogsActionBar {
+    position: absolute;
+    top: 300px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+ul#blogsActionBar li {
+    display:block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body .lotusui30_layout .lotusColLeft {
+    background-color: white;
+}
+body .lotusui30_layout .lotusColLeft:after {
+    border-left:none;
+    border-right:none;
+    background-color:white;
+}
+body.lotusui30 div.lotusTitleBar .lotusInner .lotusHeading {
+    display:none;
+}
+body.lotusui30_body .lotusMain {
+    min-width: 0;
+}
+@media(max-width:768px) {
+    
+}
+@media(min-width: 660px) {
+    /* break to bootstrap xs (xxs was added to be smaller) */
+    
+}
+@media(min-width: 725px) {
+    /* custom break */
+     
+}
+@media(min-width: 768px) {
+    /* break to bootstrap sm */ 
+    
+}
+@media(min-width: 992px) {
+    /* break to bootstrap md */
+    
+}
+@media(min-width: 1200px) {
+    /* break to bootstrap lg */
+    
+}
+
+
+
+@media(max-width: 660px) {
+    #lotusColRight {
+        display:none;
+    }
+}
+@media(max-width:1200px) {
+    ul#blogsActionBar {
+        top:0;
+    }
+}

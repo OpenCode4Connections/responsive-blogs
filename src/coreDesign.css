@@ -1,0 +1,31 @@
+body .ics-scbanner {
+    background-color: #ffb130;
+    font-family: Courier, sans-serif;
+    font-size: 13px;
+}
+body .ics-scbanner > .selected::after {
+    border-bottom-color: #c84040;
+}
+body .ics-scbanner > .selected:hover::after {
+    border-bottom-color: #a42a2a;
+}
+body .lotusui30_layout .lotusColRight,
+body .lotusui30_layout .lotusColLeft {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body .lotusui30_layout .lotusMain .lotusContent:before {
+    left: 0;
+}
+body .lotusui30_layout .lotusMain .lotusContent {
+    padding: 0 20px 15px 15px;
+    margin-top: -20px;
+}
+body #lotusColRight.lotusColRight,
+body .lotusui30_layout .lotusColLeft,
+body .lotusui30_layout .lotusMain .lotusContent:before {
+    background: transparent;
+    margin-top: 132px;
+}
